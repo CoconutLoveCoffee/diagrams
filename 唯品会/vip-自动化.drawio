@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T02:32:32.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="24.7.1" etag="6RMB0b6K__VY__AlwXMW" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T11:57:53.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WgTrneBeqh8qXt1O-J03" version="24.7.1" type="github">
   <diagram name="第 1 页" id="VxHALeBs2BCOJVHT1nt_">
-    <mxGraphModel>
+    <mxGraphModel dx="3088" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMMxIuNE6PGJ_qNbsWa4-1" target="tMMxIuNE6PGJ_qNbsWa4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-1" value="提测&lt;div&gt;【域+提测分支+发布分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMMxIuNE6PGJ_qNbsWa4-2" target="tMMxIuNE6PGJ_qNbsWa4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-2" value="冒烟&lt;div&gt;【域+提测分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMMxIuNE6PGJ_qNbsWa4-3" target="tMMxIuNE6PGJ_qNbsWa4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-3" value="功能&lt;div&gt;【域+提测分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="871" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMMxIuNE6PGJ_qNbsWa4-4" target="tMMxIuNE6PGJ_qNbsWa4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-4" value="回归&lt;div&gt;【域+发布分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-5" value="选包" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-11" value="vpaas流水线&lt;div&gt;构建完成&lt;/div&gt;&lt;div&gt;【域+分支】&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;域&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;分支&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;部署环境&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;task列表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMMxIuNE6PGJ_qNbsWa4-17" target="tMMxIuNE6PGJ_qNbsWa4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-20" value="动作监听" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-22" value="过滤task:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;domain_name=? and (test_branch_name=? or release_branch_name=?)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-24" value="覆盖率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-25" value="Sonar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-30" value="test_branch_name==分支" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-33" value="release_branch_name==分支" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMMxIuNE6PGJ_qNbsWa4-34" value="1、覆盖率仅用发布分支和域名 无法区分具体需要写入那个发布模块。同一个域可能存在多个发布模块。【同样无法拿到对应的测试分支，然后就无法合并发布分支和测试分支的数据】&lt;div&gt;1.1发布分支和域一样，就全部更新，但是可能造成还没发布的模块，但是数据可能已经通过，数据可能100%-》90%-》100% 不断在变。&lt;/div&gt;&lt;div&gt;1.2发布日期范围+域+分支 过滤具体的回归模块&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="570" width="630" height="135" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
