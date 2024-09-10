@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="VxHALeBs2BCOJVHT1nt_">
     <mxGraphModel dx="3088" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,6 +166,96 @@
         </mxCell>
         <mxCell id="cPDUq427SXMiCiDInlh4-28" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;1、按照域+分支自动更新覆盖率，如果是用固定dev、master等分支提测，更新范围会比较广。&lt;/font&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 1.1可能造成一些还没测试的模块也会被更新。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 1.2覆盖率数据可能在变，多个需求对应同一个域和分支。&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;2、回归阶段只更新回归时间最早的一批模块。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;3、Sonar数据可能是旧的。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="121" y="90" width="889" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-1" target="-n-mYaJxRUFdaAe6cYOS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-1" value="&lt;div&gt;Topic：paas-package&lt;/div&gt;VpaasConsumer#pipeLineMessage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1040" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-2" target="-n-mYaJxRUFdaAe6cYOS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-2" value="该环境是否消费消息，&lt;div&gt;白名配置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ESysConfigType#DEV_RUN_TASK&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-944.25" y="1150" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-3" target="-n-mYaJxRUFdaAe6cYOS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-3" value="该域所在的流水线&lt;div&gt;是否配置白名单&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ESysConfigType#COLLECT_ACTION_DOMAIN&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-958.5" y="1400" width="308.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-4" target="-n-mYaJxRUFdaAe6cYOS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-4" value="&lt;div&gt;查询流水线详情&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-864.25" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-8" target="-n-mYaJxRUFdaAe6cYOS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-22" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-n-mYaJxRUFdaAe6cYOS-21">
+          <mxGeometry x="0.0549" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-8" target="-n-mYaJxRUFdaAe6cYOS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-n-mYaJxRUFdaAe6cYOS-23">
+          <mxGeometry x="-0.2607" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-8" value="流水线是否结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-859.25" y="1580" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-9" target="-n-mYaJxRUFdaAe6cYOS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-n-mYaJxRUFdaAe6cYOS-25">
+          <mxGeometry x="-0.5072" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-9" target="-n-mYaJxRUFdaAe6cYOS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-n-mYaJxRUFdaAe6cYOS-28">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-9" value="是否需要部署环境&amp;nbsp;&lt;div&gt;或 需要收集Sonar&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1575" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-10" target="-n-mYaJxRUFdaAe6cYOS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-10" value="&lt;br&gt;&lt;div&gt;根据域和提测分支查询tasks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-864.25" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-11" value="通知所有观察者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-864.25" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1870" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-27" target="-n-mYaJxRUFdaAe6cYOS-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-27" value="进入缓存，&lt;div&gt;10分钟过期&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-31" target="-n-mYaJxRUFdaAe6cYOS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-31" value="定时任务【流水线是否结束】：&lt;div&gt;AutoTasksScheduled#scheduledPipeTasks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="1400" width="270" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
