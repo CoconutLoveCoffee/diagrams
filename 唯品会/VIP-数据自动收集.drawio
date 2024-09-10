@@ -176,10 +176,16 @@
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-2" target="-n-mYaJxRUFdaAe6cYOS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-2" target="-n-mYaJxRUFdaAe6cYOS-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-2" value="该环境是否消费消息，&lt;div&gt;白名配置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ESysConfigType#DEV_RUN_TASK&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-944.25" y="1150" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-3" target="-n-mYaJxRUFdaAe6cYOS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-3" target="-n-mYaJxRUFdaAe6cYOS-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-3" value="该域所在的流水线&lt;div&gt;是否配置白名单&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ESysConfigType#COLLECT_ACTION_DOMAIN&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -256,6 +262,12 @@
         </mxCell>
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-31" value="定时任务【流水线是否结束】：&lt;div&gt;AutoTasksScheduled#scheduledPipeTasks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-545" y="1400" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-34" value="覆盖率只有一个环境，UNI多个环境同时执行会触发多次动作" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1175" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-36" value="不配置白名单就是执行所有" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="1430" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
