@@ -269,6 +269,45 @@
         <mxCell id="-n-mYaJxRUFdaAe6cYOS-36" value="不配置白名单就是执行所有" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="1430" width="180" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-39" target="-n-mYaJxRUFdaAe6cYOS-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-39" value="提测&lt;div&gt;【域+提测分支+发布分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1165" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-41" target="-n-mYaJxRUFdaAe6cYOS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-41" value="冒烟&lt;div&gt;【域+提测分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1165" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n-mYaJxRUFdaAe6cYOS-43" target="-n-mYaJxRUFdaAe6cYOS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-43" value="功能&lt;div&gt;【域+提测分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="581" y="1165" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1204.5" as="sourcePoint" />
+            <mxPoint x="1110" y="1204.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-45" value="回归&lt;div&gt;【域+发布分支】&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1165" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-46" value="选包" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1165" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-48" value="TaskId: 域+提测分支&lt;div&gt;进入冒烟时间&lt;br&gt;&lt;div&gt;1、离开冒烟时间&lt;/div&gt;&lt;div&gt;冒烟到功能时间&lt;br&gt;&lt;div&gt;2、域+提测分支是否有活跃的部署环境&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3、冒烟阶段是否有覆盖率动作数据&lt;/div&gt;&lt;div&gt;4、&lt;span style=&quot;background-color: initial;&quot;&gt;期间&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否触发流水线&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1040" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-49" value="TaskId: 域+发布分支&lt;div&gt;进入回归时间&lt;/div&gt;&lt;div&gt;1、离开回归时间&lt;br&gt;&lt;div&gt;回归到选包时间&lt;/div&gt;&lt;div&gt;2、域+发布分支是否有活跃的部署环境&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3、回归阶段是否有覆盖率动作数据&lt;/div&gt;&lt;div&gt;4、期间是否触发流水线&lt;/div&gt;&lt;div&gt;5、是否最新一批发布日期&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="990" width="319" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-n-mYaJxRUFdaAe6cYOS-50" value="TaskId: 域+提测分支&lt;div&gt;进入功能时间&lt;/div&gt;&lt;div&gt;1、离开功能时间&lt;/div&gt;&lt;div&gt;功能到回归时间&lt;br&gt;&lt;div&gt;2、域+提测分支是否有活跃的部署环境&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3、功能阶段是否有覆盖率动作数据&lt;/div&gt;&lt;div&gt;4、期间是否触发流水线&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1295" width="310" height="155" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
