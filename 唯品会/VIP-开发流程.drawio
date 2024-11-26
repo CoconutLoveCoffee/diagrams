@@ -133,7 +133,7 @@
         <mxCell id="WK5S7aKCZVSB_zJ08Xr1-12" value="domain、branch、commitId、source" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WK5S7aKCZVSB_zJ08Xr1-57">
           <mxGeometry x="10" y="250" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WK5S7aKCZVSB_zJ08Xr1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WK5S7aKCZVSB_zJ08Xr1-50" target="WK5S7aKCZVSB_zJ08Xr1-6">
+        <mxCell id="WK5S7aKCZVSB_zJ08Xr1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="WK5S7aKCZVSB_zJ08Xr1-50" target="WK5S7aKCZVSB_zJ08Xr1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
